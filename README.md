@@ -1,24 +1,27 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7948557&assignment_repo_type=AssignmentRepo)
-# Bil 3106 - Proje
+# Meyok
 
-lec01.pdf sayfa 13'deki 3.seçeneği seçenler için oluşturulmuş repodur.
-	
-1. Kanser Web Form
-2. MEYOK
-3. Sınav Programı Hazırlama
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
-Aşağıda yer alan proje bilgilerinizi Github reponuzun README.md dosyasına yazmanız gerekmektedir.
+## Development server
 
-* Hangi projeyi seçtiğiniz
-* Takım üyelerinin öğrenci numaraları ve adları
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-**Örnek bir gösterim:**
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-**Proje Adı:** 3. Sınav Programı Hazırlama
+## Build
 
-**Takım Üyeleri:** 
- 1. 123456789 Saliha Yeşilyurt
- 2. 123456758 Hidayet Takçı
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-Proje dosyalarınızı **03.06.2022 Cuma 17:00'ye** kadar bu repoya gönderiniz. Takım üyelerinden sadece 1 kişinin göndermesi yeterlidir.
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
