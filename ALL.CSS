@@ -1,0 +1,239 @@
+.content-cities {
+
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding: 0.5em;
+    box-shadow: 0 0 0.5em 0.01em white, 0 0 0.3em 0.5em rgba(0, 0, 0, 0.8);
+}
+
+header p {
+    color: black;
+    font-weight: 501;
+    font-size: 1.5em;
+    -webkit-text-stroke: .05em white;
+    text-shadow: 0em 0em 1em white;
+}
+
+header div {
+    padding: 0 1em;
+}
+
+header div a {
+    color: white;
+    font-size: 0.6em;
+    text-decoration: none;
+    box-shadow: 0 0 0.2em 0.01em white;
+    padding: 0.3em 0.7em;
+    border-radius: 3px;
+    transition: 300ms ease;
+    margin-right: 10px;
+}
+
+header div a:hover {
+    color: white;
+    box-shadow: 0 0 0.5em 0.05em white;
+}
+
+.cities {
+    margin: 1em;
+    border-radius: 10px;
+    padding: 0.1em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    box-shadow: 0em 0 0.1em 0.01em gray, 0em 0 .5em .1em royalblue;
+}
+
+.cities p {
+    font-size: .5em;
+}
+
+.district {
+    width: 100%;
+    padding: .2em;
+}
+
+.district a {
+    font-size: 0.1em;
+    text-decoration: none;
+    color: gray;
+    transition: 0.2s;
+    width: 100%;
+    padding: 1em 3em;
+    border-radius: 2.4px;
+    box-shadow: 0 0 1em 0.1em gray;
+
+}
+
+.district a:hover {
+    color: green;
+    box-shadow: 0 0 1em 0.5em green;
+}
+
+.update-delete {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.update-delete a:first-child {
+    border-radius: 2px;
+    background-color: royalblue;
+    color: white;
+    padding: 1em 1.2em;
+    font-size: 0.3em;
+    transition: 200ms;
+
+}
+
+.update-delete a:first-child:hover {
+    box-shadow: 0 0 0.5em 0.2em royalblue;
+    color: royalblue;
+    background-color: white;
+}
+
+.update-delete a:last-child {
+    border-radius: 2px;
+    background-color: red;
+    color: white;
+    padding: 1em 1.2em;
+    font-size: 0.3em;
+    margin-left: 2px;
+    transition: 200ms;
+}
+
+.update-delete a:last-child:hover {
+    box-shadow: 0 0 0.5em 0.2em red;
+    color: red;
+    background-color: white;
+}
+.city-show{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(139, 130, 130, 0.7);
+}
+
+.city-container {
+    width: 30%;
+    background-color: rgba(255, 255, 255, .9);
+    border-radius: 5px;
+    box-shadow: 0 0 0.2em 0.01em greenyellow;
+    color: black;
+    margin: 100px auto;
+}
+
+.city-container .add-city-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5em;
+}
+
+.city-container .add-city-header p {
+    margin: 0;
+    padding: .2em 0 0 0;
+    color: black;
+}
+
+.city-container .add-city-header a {
+    color: black;
+    text-decoration: none;
+    transition: 300ms;
+}
+
+.city-container .add-city-header a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.city-container hr {
+    width: 94%;
+}
+
+.add-box {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add-box label {
+    font-size: 0.2em;
+}
+
+.inputes {
+    width: 96%;
+}
+
+.city-container form {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-button {
+    width: 100%;
+    border: 0;
+    background: none;
+    box-shadow: 0 0 0 0.01em black;
+    border-radius: 2px;
+    color: black;
+    transition: 100ms;
+    padding: .4em;
+}
+.input-button:hover{
+    background-color: royalblue;
+    box-shadow: 0 0 1em 0.01 black;
+}
+.delete-agreement{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.agree{
+    background-color: green;
+    color: white;
+    transition: 200ms;
+}
+.agree:hover{
+    box-shadow: 0 0 0.5em 0.1em green;
+    color: black;
+    background-color: white;
+}
+.disagree{
+    margin-left: .5em;
+    background-color: red;
+    color: white;
+}
+.disagree:hover{
+    box-shadow: 0 0 0.5em 0.1em red;
+    color: black;
+    background-color: white;
+}
+.delete-question{
+    font-size: 0.8em;
+    margin-bottom: 2em;
+}
